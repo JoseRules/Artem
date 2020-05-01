@@ -1,0 +1,83 @@
+/*This is the part for the Top Navigation Bar*/
+#navbarBrand{
+    font-size: 40px;
+    margin-right: 50px;
+}
+.navBarContainer{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*This is the part for the Home Screen*/
+.space{
+
+    height:25px;
+}
+
+.belowPicture{
+
+    height: 180px;
+}
+
+.carouselItself{
+    width: 1200px;
+    
+}
+
+/*This is the part for the Bottom Navigation Bar*/
+.bottomNavBar{
+    justify-content: space-between;
+    background-color: #074043;
+}
+
+/*This is the part for the Patient's Profile*/
+.patientProfileCard{
+    margin-top: 15px;
+    background-color:rgba(255, 255, 255, 0.9);
+}
+
+.patientProfileImage{
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    border-radius: 9%;
+}
+
+.titleProfile{
+    font-weight: bold;
+}
+
+#spacePatientProfile{
+    height: 16.7em;
+}
+
+/*This is for the PatientRegistration Form*/
+#patientProfilePicture{
+    width: 150px;
+    height: 150px;
+}
+
+#formPatient{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#firstSignPatient{
+    font-size: xx-large;
+}
+#secondSignPatient{
+    font-size: large;
+}
+
+.spaceRegister{
+    height: 15px;
+}
+
+.spaceRegister2{
+    height: 45px;
+}
+
+#ld{
+    width: 115px;
+    height: 10px;
+}
+
