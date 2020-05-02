@@ -7,7 +7,10 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    background-image: url(https://media.istockphoto.com/vectors/hospital-pattern-blue-icons-vector-id578083346);
+    background-image: url(https://media.istockphoto.com/vectors/medical-seamless-pattern-clinic-vector-illustration-hospital-thin-vector-id637895894);
+  }
 /*This is the part for the Home Screen*/
 .space{
 
@@ -81,3 +84,80 @@
     height: 10px;
 }
 
+/*This is for the Search Doctor part*/
+.SearchEnvironment{
+    height: 650px;
+    width: 100%;
+}
+
+.spaceSearchDoctor{
+    margin-top: 25%;
+    
+}
+#spaceForDoctorSearch{
+    height: 600px;
+}
+.formSearch{
+
+    background-color:rgba(255, 255, 255, 0.9);
+    border-color: black;
+    border-width: 10xpx;
+}
+
+/*This is for Doctor Card*/
+.marginTop15{
+    height: 15px;
+    width: 10px;
+    
+}
+
+.cardItself{
+    border-radius: 2% 2% 2% 2% / 5% 5% 5% 5%;
+    margin: 10px;
+    background-color: #F0F8FF;
+}
+
+.display-none{
+    display: none;
+}
+
+/*This is for the login screen*/
+#backgroundLogin{
+    height: 579px;
+    width: 100%;
+    background-image: url(https://cdn.hipwallpaper.com/i/15/72/wgMLUS.jpg);
+  
+  }
+  
+   
+  .logoLogin{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+  }
+  
+  .loginForm{
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+  }
+  
+  
+  
+.labelLogin{
+    font-weight: bold;
+  }
+
+  
+
+  .spaceLogin{
+    height: 65px;
+  }
+  .font-small{
+    font-size: 18px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="font-small"] {
+      font-size: 13px;
+    }
+  }

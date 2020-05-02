@@ -12,7 +12,7 @@ class TopNavBar extends React.Component {
                 <Router>
                     <div>
                         <Navbar bg="light" expand="lg">
-                            <Navbar.Brand id="navbarBrand" href="/home">
+                            <Navbar.Brand id="navbarBrand" href="/">
                                 <img alt="" src={Artem} width="70" height="70" />{' '} Artem
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,9 +20,9 @@ class TopNavBar extends React.Component {
                                 <Switch>
                                     <Route path="/doctor">
                                         <Nav className="mr-auto">
-                                            <Nav.Link href="/doctorprofile">Profile</Nav.Link>
+                                            <Nav.Link href="/doctor/profile">Profile</Nav.Link>
                                             <Nav.Link href="/doctorappt">Agenda</Nav.Link>
-                                            <Nav.Link href="/calendar">Calendar</Nav.Link>
+                                            <Nav.Link href="/doctor/calendar">Calendar</Nav.Link>
                                         </Nav>
                                         <Navbar.Brand inline >Welcome Dr. Naysha Chire!!</Navbar.Brand>
                                     </Route>
@@ -33,7 +33,7 @@ class TopNavBar extends React.Component {
                                             <NavDropdown title="Search Doctors" id="basic-nav-dropdown">
                                                 <NavDropdown.Item href="/doctorsearch">By location</NavDropdown.Item>
                                                 <NavDropdown.Item href="/doctorsearch">By name</NavDropdown.Item>
-                                                <NavDropdown.Item href="/doctorsearch">By specialty</NavDropdown.Item>
+                                                <NavDropdown.Item href="/patient/searchdoctor">By specialty</NavDropdown.Item>
                                             </NavDropdown>
                                         </Nav>
                                         <Navbar.Brand inline >Welcome José Flores!!</Navbar.Brand>

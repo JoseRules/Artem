@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+#mainContainer{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/vectors/hospital-pattern-blue-icons-vector-id578083346);
+  background-image: url(https://media.istockphoto.com/vectors/medical-seamless-pattern-clinic-vector-illustration-hospital-thin-vector-id637895894);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,6 +29,13 @@
   color: white;
 }
 
+.suggestion {
+  background-color: #f1f1f1;
+  color: gray;
+  font-size: 80%;
+  padding: 0.25em 0.7em;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+
