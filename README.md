@@ -25,7 +25,7 @@ It is a web application that is in charge of connecting specialist doctors with 
 #### How it will work
 - There will be two profiles: Doctors and Patients
 - A patient can login and search the database, according to specialty, location and qualification
-- The patient will schedula an appointment
+- The patient will schedule an appointment
 - The patient will be able to comment and rate the medical care recieved
 - The doctor will be able to manage their available schedules to offer and confirm appointments.
 
@@ -37,4 +37,8 @@ It is a web application that is in charge of connecting specialist doctors with 
 
 ## User Stories
 - As a doctor I need an application where I could register with first and last name, email, username, password, specialty, NPI,
-location
+location, phone number, profile picture, experience, languages, prices, agenda.
+- As a patient I need to register with first and last name, email, phone number, username and password.
+- As a patient I would be able to search for doctors by specialty, name and/or location. Once I found a doctor I would be able to request and edit appointments, once approved and completed the appointment, I would be able to rate and tell my experience with the doctor
+- As a patient I need to have a medical record on my profile, so I can upload medical studies such as X-ray, lab results, etc. and It needs to be private for it to be accessible only by the doctor that I'm having an appointment with and me.
+- 
