@@ -55,3 +55,6 @@ location, phone number, profile picture, experience, languages, prices, agenda.
   + Height
   + Temperature
 - Also as a doctor I need to place a request for the patient to enter their lab results or any other medical analysis.
+
+## UML Class Diagram
+![ClassDiagramUML](ClassDiagramUML.jpg)
