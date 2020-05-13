@@ -58,3 +58,6 @@ location, phone number, profile picture, experience, languages, prices, agenda.
 
 ## UML Class Diagram
 ![ClassDiagramUML](ClassDiagramUML.jpg)
+
+## ER Model
+![ERModel](ERModel.jpg)
